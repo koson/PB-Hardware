@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name 2020-09-23_08-56-15)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/ul_TPS563231DRLR/KiCAD/2020-09-23_08-56-15/2020-09-23_08-56-15.lib")(options "")(descr ""))
+  (lib (name PBLib)(type Legacy)(uri ${KIPRJMOD}/PBLib.lib)(options "")(descr ""))
+  (lib (name 2020-09-23_09-25-31)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/TLV74033PDBVR /KiCAD/2020-09-23_09-25-31/2020-09-23_09-25-31.lib")(options "")(descr ""))
+  (lib (name TEST2020-09-23_09-25-31)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/TLV74033PDBVR  copy/KiCAD/2020-09-23_09-25-31/TEST2020-09-23_09-25-31.lib")(options "")(descr ""))
+  (lib (name 2020-09-23_10-39-16)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/CP2102GM/KiCAD/CP2102GM/2020-09-23_10-39-16.lib")(options "")(descr ""))
+  (lib (name Pissbot-rescue)(type Legacy)(uri ${KIPRJMOD}/Pissbot-rescue.lib)(options "")(descr ""))
+  (lib (name SM03B-SRSS-TB_LF__SN_)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/SM03B-SRSS-TB_LF__SN_/SM03B-SRSS-TB_LF__SN_.lib")(options "")(descr ""))
+  (lib (name 2020-09-26_09-19-44)(type Legacy)(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/ul_RB551SS30T2R/KiCAD/2020-09-26_09-19-44/2020-09-26_09-19-44.lib")(options "")(descr ""))
+)

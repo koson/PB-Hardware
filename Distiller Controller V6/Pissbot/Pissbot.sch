@@ -1,0 +1,1044 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Pissbot Controller"
+Date "2020-09-23"
+Rev "V6"
+Comp "The Gas Horn"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2020-09-23_08-56-15:TPS563231DRLR U2
+U 1 1 5F6B1252
+P 2850 2000
+F 0 "U2" H 2850 2788 60  0000 C CNN
+F 1 "TPS563231DRLR" H 2850 2682 60  0000 C CNN
+F 2 "DRL0006A" H 2850 1940 60  0001 C CNN
+F 3 "" H 2850 2000 60  0000 C CNN
+	1    2850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C4
+U 1 1 5F6B29D1
+P 1700 2000
+F 0 "C4" H 1815 2046 50  0000 L CNN
+F 1 "10uF" H 1750 1900 50  0000 L CNN
+F 2 "" H 1738 1850 50  0001 C CNN
+F 3 "~" H 1700 2000 50  0001 C CNN
+	1    1700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C3
+U 1 1 5F6B2F0B
+P 1400 2000
+F 0 "C3" H 1515 2046 50  0000 L CNN
+F 1 "10uF" H 1450 1900 50  0000 L CNN
+F 2 "" H 1438 1850 50  0001 C CNN
+F 3 "~" H 1400 2000 50  0001 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R5
+U 1 1 5F6B4A95
+P 4150 1950
+F 0 "R5" H 4220 1996 50  0000 L CNN
+F 1 "73.2k" H 4220 1905 50  0000 L CNN
+F 2 "" V 4080 1950 50  0001 C CNN
+F 3 "~" H 4150 1950 50  0001 C CNN
+	1    4150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C7
+U 1 1 5F6B5166
+P 3600 1450
+F 0 "C7" H 3715 1496 50  0000 L CNN
+F 1 "0.1uF" H 3715 1405 50  0000 L CNN
+F 2 "" H 3638 1300 50  0001 C CNN
+F 3 "~" H 3600 1450 50  0001 C CNN
+	1    3600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C11
+U 1 1 5F6B55C0
+P 5150 2050
+F 0 "C11" H 5265 2096 50  0000 L CNN
+F 1 "0.1uF" H 5200 1950 50  0000 L CNN
+F 2 "" H 5188 1900 50  0001 C CNN
+F 3 "~" H 5150 2050 50  0001 C CNN
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C10
+U 1 1 5F6B5A79
+P 4850 2050
+F 0 "C10" H 4965 2096 50  0000 L CNN
+F 1 "22uF" H 4900 1950 50  0000 L CNN
+F 2 "" H 4888 1900 50  0001 C CNN
+F 3 "~" H 4850 2050 50  0001 C CNN
+	1    4850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C9
+U 1 1 5F6B5CB3
+P 4550 2050
+F 0 "C9" H 4665 2096 50  0000 L CNN
+F 1 "22uF" H 4600 1950 50  0000 L CNN
+F 2 "" H 4588 1900 50  0001 C CNN
+F 3 "~" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R7
+U 1 1 5F6B5E8C
+P 5550 1950
+F 0 "R7" H 5620 1996 50  0000 L CNN
+F 1 "1k" H 5620 1905 50  0000 L CNN
+F 2 "" V 5480 1950 50  0001 C CNN
+F 3 "~" H 5550 1950 50  0001 C CNN
+	1    5550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-09-23_09-25-31:TLV74033PDBVR U3
+U 1 1 5F6B175B
+P 3100 3400
+F 0 "U3" H 3900 3787 60  0000 C CNN
+F 1 "TLV74033PDBVR" H 3900 3681 60  0000 C CNN
+F 2 "SOIC_DBVR_TEX" H 3900 3640 60  0001 C CNN
+F 3 "" H 3100 3400 60  0000 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:LED-Device D1
+U 1 1 5F6B2703
+P 5550 2350
+F 0 "D1" V 5589 2232 50  0000 R CNN
+F 1 "LED" V 5498 2232 50  0000 R CNN
+F 2 "" H 5550 2350 50  0001 C CNN
+F 3 "~" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0101
+U 1 1 5F6B6C45
+P 3200 2600
+F 0 "#PWR0101" H 3200 2350 50  0001 C CNN
+F 1 "GND" H 3205 2427 50  0000 C CNN
+F 2 "" H 3200 2600 50  0001 C CNN
+F 3 "" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1850 2200 1850
+Wire Wire Line
+	2200 1850 2200 1600
+Wire Wire Line
+	2200 1600 2350 1600
+Wire Wire Line
+	2200 1600 2000 1600
+Connection ~ 2200 1600
+Wire Wire Line
+	3200 2600 2000 2600
+Wire Wire Line
+	1400 2600 1400 2150
+Wire Wire Line
+	1700 2150 1700 2600
+Connection ~ 1700 2600
+Wire Wire Line
+	1700 2600 1400 2600
+Wire Wire Line
+	2000 2150 2000 2600
+Connection ~ 2000 2600
+Wire Wire Line
+	2000 2600 1700 2600
+Wire Wire Line
+	2000 1850 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 1700 1600
+Wire Wire Line
+	1700 1850 1700 1600
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 1400 1600
+Wire Wire Line
+	1400 1850 1400 1600
+Wire Wire Line
+	1400 2600 1100 2600
+Connection ~ 1400 2600
+Wire Wire Line
+	1400 1600 1100 1600
+Connection ~ 1400 1600
+$Comp
+L Pissbot-rescue:GND-power #PWR0102
+U 1 1 5F6C7375
+P 3450 2200
+F 0 "#PWR0102" H 3450 1950 50  0001 C CNN
+F 1 "GND" H 3455 2027 50  0000 C CNN
+F 2 "" H 3450 2200 50  0001 C CNN
+F 3 "" H 3450 2200 50  0001 C CNN
+	1    3450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2100 3450 2100
+Wire Wire Line
+	3450 2100 3450 2200
+Wire Wire Line
+	3350 1750 3600 1750
+Wire Wire Line
+	3600 1750 3600 1600
+Wire Wire Line
+	3600 1300 3450 1300
+Wire Wire Line
+	3450 1300 3450 1650
+Wire Wire Line
+	3450 1650 3350 1650
+Connection ~ 3600 1750
+Wire Wire Line
+	3350 2000 3650 2000
+Wire Wire Line
+	3650 2000 3650 2150
+Wire Wire Line
+	4150 2600 3200 2600
+Connection ~ 3200 2600
+$Comp
+L Pissbot-rescue:C-Device C5
+U 1 1 5F6D57C6
+P 2000 2000
+F 0 "C5" H 2115 2046 50  0000 L CNN
+F 1 "10uF" H 2050 1900 50  0000 L CNN
+F 2 "" H 2038 1850 50  0001 C CNN
+F 3 "~" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2150 4150 2100
+Wire Wire Line
+	3650 2150 4150 2150
+Wire Wire Line
+	4150 2500 4150 2600
+Wire Wire Line
+	4150 2150 4150 2200
+$Comp
+L Pissbot-rescue:R-Device R6
+U 1 1 5F6B462C
+P 4150 2350
+F 0 "R6" H 4220 2396 50  0000 L CNN
+F 1 "10k" H 4220 2305 50  0000 L CNN
+F 2 "" V 4080 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 2150
+Wire Wire Line
+	4150 2600 4550 2600
+Wire Wire Line
+	5150 2600 5150 2200
+Connection ~ 4150 2600
+Wire Wire Line
+	4850 2200 4850 2600
+Connection ~ 4850 2600
+Wire Wire Line
+	4850 2600 5150 2600
+Wire Wire Line
+	4550 2200 4550 2600
+Connection ~ 4550 2600
+Wire Wire Line
+	4550 2600 4850 2600
+Wire Wire Line
+	4050 1750 4150 1750
+Wire Wire Line
+	5150 1900 5150 1750
+Wire Wire Line
+	4850 1900 4850 1750
+Connection ~ 4850 1750
+Wire Wire Line
+	4850 1750 5150 1750
+Wire Wire Line
+	4550 1900 4550 1750
+Connection ~ 4550 1750
+Wire Wire Line
+	4550 1750 4850 1750
+Wire Wire Line
+	4150 1800 4150 1750
+Connection ~ 4150 1750
+Wire Wire Line
+	4150 1750 4550 1750
+Wire Wire Line
+	5150 1750 5550 1750
+Wire Wire Line
+	5550 1750 5550 1800
+Connection ~ 5150 1750
+Wire Wire Line
+	5550 2100 5550 2200
+Wire Wire Line
+	5550 2500 5550 2600
+Wire Wire Line
+	5550 2600 5150 2600
+Connection ~ 5150 2600
+Wire Wire Line
+	5550 1750 5900 1750
+Connection ~ 5550 1750
+Wire Wire Line
+	5550 2600 5900 2600
+Connection ~ 5550 2600
+Wire Wire Line
+	3600 1750 3750 1750
+$Comp
+L Pissbot-rescue:L-Device L1
+U 1 1 5F6B3CF0
+P 3900 1750
+F 0 "L1" V 4000 1650 50  0000 L CNN
+F 1 "3.3uH" V 3800 1650 50  0000 L CNN
+F 2 "" H 3900 1750 50  0001 C CNN
+F 3 "~" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pissbot-rescue:+12V-power #PWR0103
+U 1 1 5F6FAD24
+P 1100 1600
+F 0 "#PWR0103" H 1100 1450 50  0001 C CNN
+F 1 "+12V" V 1115 1728 50  0000 L CNN
+F 2 "" H 1100 1600 50  0001 C CNN
+F 3 "" H 1100 1600 50  0001 C CNN
+	1    1100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0104
+U 1 1 5F6FC426
+P 1100 2600
+F 0 "#PWR0104" H 1100 2350 50  0001 C CNN
+F 1 "GND" H 1105 2427 50  0000 C CNN
+F 2 "" H 1100 2600 50  0001 C CNN
+F 3 "" H 1100 2600 50  0001 C CNN
+	1    1100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:+5V-power #PWR0105
+U 1 1 5F6FE77C
+P 5900 1750
+F 0 "#PWR0105" H 5900 1600 50  0001 C CNN
+F 1 "+5V" V 5915 1878 50  0000 L CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0106
+U 1 1 5F7016C2
+P 5900 2600
+F 0 "#PWR0106" H 5900 2350 50  0001 C CNN
+F 1 "GND" H 5905 2427 50  0000 C CNN
+F 2 "" H 5900 2600 50  0001 C CNN
+F 3 "" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C8
+U 1 1 5F702AC6
+P 3950 3500
+F 0 "C8" H 4065 3546 50  0000 L CNN
+F 1 "1uF" H 4000 3400 50  0000 L CNN
+F 2 "" H 3988 3350 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C6
+U 1 1 5F703521
+P 2200 3500
+F 0 "C6" H 2315 3546 50  0000 L CNN
+F 1 "1uF" H 2250 3400 50  0000 L CNN
+F 2 "" H 2238 3350 50  0001 C CNN
+F 3 "~" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3300 2450 3300
+Wire Wire Line
+	2200 3350 2200 3300
+Connection ~ 2200 3300
+Wire Wire Line
+	2200 3300 2050 3300
+Wire Wire Line
+	2500 3500 2450 3500
+Wire Wire Line
+	2450 3500 2450 3300
+Connection ~ 2450 3300
+Wire Wire Line
+	2450 3300 2200 3300
+$Comp
+L Pissbot-rescue:GND-power #PWR0107
+U 1 1 5F707DCC
+P 2200 3750
+F 0 "#PWR0107" H 2200 3500 50  0001 C CNN
+F 1 "GND" H 2205 3577 50  0000 C CNN
+F 2 "" H 2200 3750 50  0001 C CNN
+F 3 "" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0108
+U 1 1 5F708410
+P 3750 3750
+F 0 "#PWR0108" H 3750 3500 50  0001 C CNN
+F 1 "GND" H 3755 3577 50  0000 C CNN
+F 2 "" H 3750 3750 50  0001 C CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3500 3750 3500
+Wire Wire Line
+	3750 3500 3750 3750
+$Comp
+L Pissbot-rescue:GND-power #PWR0109
+U 1 1 5F70CBEE
+P 3950 3750
+F 0 "#PWR0109" H 3950 3500 50  0001 C CNN
+F 1 "GND" H 3955 3577 50  0000 C CNN
+F 2 "" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 3950 3300
+Wire Wire Line
+	3950 3350 3950 3300
+Connection ~ 3950 3300
+Wire Wire Line
+	3950 3300 4200 3300
+Wire Wire Line
+	3950 3650 3950 3750
+$Comp
+L Pissbot-rescue:+3.3V-power #PWR0110
+U 1 1 5F7106B4
+P 4200 3300
+F 0 "#PWR0110" H 4200 3150 50  0001 C CNN
+F 1 "+3.3V" V 4215 3428 50  0000 L CNN
+F 2 "" H 4200 3300 50  0001 C CNN
+F 3 "" H 4200 3300 50  0001 C CNN
+	1    4200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Pissbot-rescue:+5V-power #PWR0111
+U 1 1 5F710D92
+P 2050 3300
+F 0 "#PWR0111" H 2050 3150 50  0001 C CNN
+F 1 "+5V" V 2065 3428 50  0000 L CNN
+F 2 "" H 2050 3300 50  0001 C CNN
+F 3 "" H 2050 3300 50  0001 C CNN
+	1    2050 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2020-09-23_10-39-16:CP2102-GM U1
+U 1 1 5F711897
+P 2050 5250
+F 0 "U1" H 3450 5637 60  0000 C CNN
+F 1 "CP2102-GM" H 3450 5531 60  0000 C CNN
+F 2 "QFN28_5X5_SIL" H 3450 5490 60  0001 C CNN
+F 3 "" H 2050 5250 60  0000 C CNN
+	1    2050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C1
+U 1 1 5F713BC5
+P 1100 5900
+F 0 "C1" H 850 5900 50  0000 L CNN
+F 1 "4.7uF" H 850 5800 50  0000 L CNN
+F 2 "" H 1138 5750 50  0001 C CNN
+F 3 "~" H 1100 5900 50  0001 C CNN
+	1    1100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:C-Device C2
+U 1 1 5F714226
+P 1350 5900
+F 0 "C2" H 1450 5900 50  0000 L CNN
+F 1 "0.1uF" H 1450 5800 50  0000 L CNN
+F 2 "" H 1388 5750 50  0001 C CNN
+F 3 "~" H 1350 5900 50  0001 C CNN
+	1    1350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R2
+U 1 1 5F714643
+P 1700 6700
+F 0 "R2" H 1500 6750 50  0000 L CNN
+F 1 "47.5k" H 1400 6650 50  0000 L CNN
+F 2 "" V 1630 6700 50  0001 C CNN
+F 3 "~" H 1700 6700 50  0001 C CNN
+	1    1700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R4
+U 1 1 5F714862
+P 2000 7100
+F 0 "R4" H 2070 7146 50  0000 L CNN
+F 1 "10k" H 2070 7055 50  0000 L CNN
+F 2 "" V 1930 7100 50  0001 C CNN
+F 3 "~" H 2000 7100 50  0001 C CNN
+	1    2000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R1
+U 1 1 5F714D15
+P 1450 6450
+F 0 "R1" V 1350 6550 50  0000 C CNN
+F 1 "22.1k" V 1550 6450 50  0000 C CNN
+F 2 "" V 1380 6450 50  0001 C CNN
+F 3 "~" H 1450 6450 50  0001 C CNN
+	1    1450 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Pissbot-rescue:R-Device R3
+U 1 1 5F714EE9
+P 1850 7100
+F 0 "R3" H 1750 7100 50  0000 C CNN
+F 1 "2k" H 1750 7000 50  0000 C CNN
+F 2 "" V 1780 7100 50  0001 C CNN
+F 3 "~" H 1850 7100 50  0001 C CNN
+	1    1850 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0112
+U 1 1 5F715F32
+P 2000 7350
+F 0 "#PWR0112" H 2000 7100 50  0001 C CNN
+F 1 "GND" H 2005 7177 50  0000 C CNN
+F 2 "" H 2000 7350 50  0001 C CNN
+F 3 "" H 2000 7350 50  0001 C CNN
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6950 2000 6250
+Wire Wire Line
+	2000 6250 2050 6250
+Wire Wire Line
+	2000 7250 2000 7350
+$Comp
+L Pissbot-rescue:+3.3V-power #PWR0113
+U 1 1 5F71AFB8
+P 1700 7400
+F 0 "#PWR0113" H 1700 7250 50  0001 C CNN
+F 1 "+3.3V" H 1715 7573 50  0000 C CNN
+F 2 "" H 1700 7400 50  0001 C CNN
+F 3 "" H 1700 7400 50  0001 C CNN
+	1    1700 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 6950 1850 6050
+Wire Wire Line
+	1850 6050 2050 6050
+Wire Wire Line
+	1850 7400 1850 7250
+Wire Wire Line
+	1700 7400 1850 7400
+$Comp
+L Pissbot-rescue:GND-power #PWR0114
+U 1 1 5F72EB5E
+P 1700 6900
+F 0 "#PWR0114" H 1700 6650 50  0001 C CNN
+F 1 "GND" H 1550 6750 50  0000 C CNN
+F 2 "" H 1700 6900 50  0001 C CNN
+F 3 "" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6450 1700 6450
+Wire Wire Line
+	1700 6550 1700 6450
+Wire Wire Line
+	1700 6850 1700 6900
+Wire Wire Line
+	1300 6450 1200 6450
+$Comp
+L Pissbot-rescue:+5V-power #PWR0115
+U 1 1 5F73BE17
+P 1200 6450
+F 0 "#PWR0115" H 1200 6300 50  0001 C CNN
+F 1 "+5V" V 1215 6578 50  0000 L CNN
+F 2 "" H 1200 6450 50  0001 C CNN
+F 3 "" H 1200 6450 50  0001 C CNN
+	1    1200 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 6450 1700 5950
+Wire Wire Line
+	1700 5950 2050 5950
+Connection ~ 1700 6450
+$Comp
+L Pissbot-rescue:GND-power #PWR0116
+U 1 1 5F77C303
+P 1350 6150
+F 0 "#PWR0116" H 1350 5900 50  0001 C CNN
+F 1 "GND" H 1355 5977 50  0000 C CNN
+F 2 "" H 1350 6150 50  0001 C CNN
+F 3 "" H 1350 6150 50  0001 C CNN
+	1    1350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR0117
+U 1 1 5F77C7C7
+P 1100 6150
+F 0 "#PWR0117" H 1100 5900 50  0001 C CNN
+F 1 "GND" H 1105 5977 50  0000 C CNN
+F 2 "" H 1100 6150 50  0001 C CNN
+F 3 "" H 1100 6150 50  0001 C CNN
+	1    1100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6050 1350 6150
+Wire Wire Line
+	1100 6050 1100 6150
+Wire Wire Line
+	1350 5750 1850 5750
+Wire Wire Line
+	1100 5750 1350 5750
+Connection ~ 1350 5750
+Wire Wire Line
+	2050 5850 1850 5850
+Wire Wire Line
+	1850 5850 1850 5750
+Connection ~ 1850 5750
+Wire Wire Line
+	1850 5750 2050 5750
+Text Label 1750 5650 0    50   ~ 0
+USB_DN
+Wire Wire Line
+	1750 5650 2050 5650
+Wire Wire Line
+	2050 5550 1750 5550
+Wire Wire Line
+	2050 5450 1750 5450
+Wire Wire Line
+	2050 5350 1750 5350
+Wire Wire Line
+	2050 5250 1750 5250
+Text Label 1750 5550 0    50   ~ 0
+USB_DP
+Text Label 1750 5450 0    50   ~ 0
+GND
+Text Label 1750 5350 0    50   ~ 0
+RI
+Text Label 1750 5250 0    50   ~ 0
+DCD
+$Comp
+L Pissbot-rescue:GND-power #PWR0118
+U 1 1 5F7AD4B8
+P 4950 5050
+F 0 "#PWR0118" H 4950 4800 50  0001 C CNN
+F 1 "GND" H 4955 4877 50  0000 C CNN
+F 2 "" H 4950 5050 50  0001 C CNN
+F 3 "" H 4950 5050 50  0001 C CNN
+	1    4950 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 5250 4950 5250
+Wire Wire Line
+	4950 5250 4950 5050
+Wire Wire Line
+	4850 5350 5150 5350
+Wire Wire Line
+	4850 5450 5150 5450
+Text Label 5150 5350 2    50   ~ 0
+DTR
+Text Label 5150 5450 2    50   ~ 0
+DSR
+Wire Wire Line
+	4850 5550 5150 5550
+Wire Wire Line
+	4850 5650 5150 5650
+Wire Wire Line
+	4850 5750 5150 5750
+Wire Wire Line
+	4850 5850 5150 5850
+Text Label 5150 5550 2    50   ~ 0
+TXD
+Text Label 5150 5650 2    50   ~ 0
+RXD
+Text Label 5150 5750 2    50   ~ 0
+RTS
+Text Label 5150 5850 2    50   ~ 0
+CTS
+$Comp
+L Pissbot-rescue:Raspberry_Pi_2_3-Connector J1
+U 1 1 5F7D427D
+P 13550 2550
+F 0 "J1" H 13550 4031 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 13550 3940 50  0000 C CNN
+F 2 "" H 13550 2550 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 13550 2550 50  0001 C CNN
+	1    13550 2550
+	1    0    0    -1  
+$EndComp
+Text Notes 11850 9000 0    50   ~ 0
+NOTE: Add reverse current diodes for power supplies
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F2402
+P 2100 8450
+F 0 "J?" V 2038 8122 50  0000 R CNN
+F 1 "T2" V 1947 8122 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 2100 8450 50  0001 L BNN
+F 3 "JST" H 2100 8450 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 2100 8450 50  0001 L BNN "Field4"
+	1    2100 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F2A3B
+P 1150 8450
+F 0 "J?" V 1088 8122 50  0000 R CNN
+F 1 "T1" V 997 8122 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 1150 8450 50  0001 L BNN
+F 3 "JST" H 1150 8450 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 1150 8450 50  0001 L BNN "Field4"
+	1    1150 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F3A98
+P 1150 9850
+F 0 "J?" V 1088 9522 50  0000 R CNN
+F 1 "T5" V 997 9522 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 1150 9850 50  0001 L BNN
+F 3 "JST" H 1150 9850 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 1150 9850 50  0001 L BNN "Field4"
+	1    1150 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F41CB
+P 2100 9850
+F 0 "J?" V 2038 9522 50  0000 R CNN
+F 1 "T6" V 1947 9522 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 2100 9850 50  0001 L BNN
+F 3 "JST" H 2100 9850 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 2100 9850 50  0001 L BNN "Field4"
+	1    2100 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F48BA
+P 3000 8450
+F 0 "J?" V 2938 8122 50  0000 R CNN
+F 1 "T3" V 2847 8122 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 3000 8450 50  0001 L BNN
+F 3 "JST" H 3000 8450 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 3000 8450 50  0001 L BNN "Field4"
+	1    3000 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F4E55
+P 3900 8450
+F 0 "J?" V 3838 8122 50  0000 R CNN
+F 1 "T4" V 3747 8122 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 3900 8450 50  0001 L BNN
+F 3 "JST" H 3900 8450 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 3900 8450 50  0001 L BNN "Field4"
+	1    3900 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F54DE
+P 3050 9850
+F 0 "J?" V 2988 9522 50  0000 R CNN
+F 1 "T7" V 2897 9522 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 3050 9850 50  0001 L BNN
+F 3 "JST" H 3050 9850 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 3050 9850 50  0001 L BNN "Field4"
+	1    3050 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM03B-SRSS-TB_LF__SN_:SM03B-SRSS-TB(LF)(SN) J?
+U 1 1 5F6F5ADF
+P 3950 9850
+F 0 "J?" V 3888 9522 50  0000 R CNN
+F 1 "T8" V 3797 9522 50  0000 R CNN
+F 2 "JST_SM03B-SRSS-TB(LF)(SN)" H 3950 9850 50  0001 L BNN
+F 3 "JST" H 3950 9850 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 3950 9850 50  0001 L BNN "Field4"
+	1    3950 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F71C654
+P 1150 8900
+F 0 "#PWR?" H 1150 8650 50  0001 C CNN
+F 1 "GND-power" H 1155 8727 50  0000 C CNN
+F 2 "" H 1150 8900 50  0001 C CNN
+F 3 "" H 1150 8900 50  0001 C CNN
+	1    1150 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F71CBE4
+P 2100 8900
+F 0 "#PWR?" H 2100 8650 50  0001 C CNN
+F 1 "GND-power" H 2105 8727 50  0000 C CNN
+F 2 "" H 2100 8900 50  0001 C CNN
+F 3 "" H 2100 8900 50  0001 C CNN
+	1    2100 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F71D27D
+P 3000 8900
+F 0 "#PWR?" H 3000 8650 50  0001 C CNN
+F 1 "GND-power" H 3005 8727 50  0000 C CNN
+F 2 "" H 3000 8900 50  0001 C CNN
+F 3 "" H 3000 8900 50  0001 C CNN
+	1    3000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F71D509
+P 3900 8900
+F 0 "#PWR?" H 3900 8650 50  0001 C CNN
+F 1 "GND-power" H 3905 8727 50  0000 C CNN
+F 2 "" H 3900 8900 50  0001 C CNN
+F 3 "" H 3900 8900 50  0001 C CNN
+	1    3900 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 8850 1150 8900
+Wire Wire Line
+	2100 8850 2100 8900
+Wire Wire Line
+	3000 8850 3000 8900
+Wire Wire Line
+	3900 8850 3900 8900
+$Comp
+L Pissbot-rescue:R-Device R?
+U 1 1 5F73DB0A
+P 4400 9250
+F 0 "R?" H 4470 9296 50  0000 L CNN
+F 1 "4.7k" H 4470 9205 50  0000 L CNN
+F 2 "" V 4330 9250 50  0001 C CNN
+F 3 "" H 4400 9250 50  0001 C CNN
+	1    4400 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 8850 1050 9100
+Wire Wire Line
+	1050 9100 2000 9100
+Wire Wire Line
+	950  8850 950  9400
+Wire Wire Line
+	950  9400 1900 9400
+Wire Wire Line
+	4400 9400 4650 9400
+Connection ~ 4400 9400
+Wire Wire Line
+	4400 9100 4650 9100
+Connection ~ 4400 9100
+Wire Wire Line
+	1900 8850 1900 9400
+Connection ~ 1900 9400
+Wire Wire Line
+	1900 9400 2800 9400
+Wire Wire Line
+	2000 8850 2000 9100
+Connection ~ 2000 9100
+Wire Wire Line
+	2000 9100 2900 9100
+Wire Wire Line
+	2800 8850 2800 9400
+Connection ~ 2800 9400
+Wire Wire Line
+	2800 9400 3700 9400
+Wire Wire Line
+	2900 8850 2900 9100
+Connection ~ 2900 9100
+Wire Wire Line
+	2900 9100 3800 9100
+Wire Wire Line
+	3700 8850 3700 9400
+Connection ~ 3700 9400
+Wire Wire Line
+	3700 9400 4400 9400
+Wire Wire Line
+	3800 8850 3800 9100
+Connection ~ 3800 9100
+Wire Wire Line
+	3800 9100 4400 9100
+Text GLabel 4650 9100 2    50   Input ~ 0
+1WIRE
+Text GLabel 4650 9400 2    50   Input ~ 0
+3.3V
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F76A621
+P 3950 10300
+F 0 "#PWR?" H 3950 10050 50  0001 C CNN
+F 1 "GND-power" H 3955 10127 50  0000 C CNN
+F 2 "" H 3950 10300 50  0001 C CNN
+F 3 "" H 3950 10300 50  0001 C CNN
+	1    3950 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F76EDCE
+P 3050 10300
+F 0 "#PWR?" H 3050 10050 50  0001 C CNN
+F 1 "GND-power" H 3055 10127 50  0000 C CNN
+F 2 "" H 3050 10300 50  0001 C CNN
+F 3 "" H 3050 10300 50  0001 C CNN
+	1    3050 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F76F148
+P 2100 10300
+F 0 "#PWR?" H 2100 10050 50  0001 C CNN
+F 1 "GND-power" H 2105 10127 50  0000 C CNN
+F 2 "" H 2100 10300 50  0001 C CNN
+F 3 "" H 2100 10300 50  0001 C CNN
+	1    2100 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pissbot-rescue:GND-power #PWR?
+U 1 1 5F76F56C
+P 1150 10300
+F 0 "#PWR?" H 1150 10050 50  0001 C CNN
+F 1 "GND-power" H 1155 10127 50  0000 C CNN
+F 2 "" H 1150 10300 50  0001 C CNN
+F 3 "" H 1150 10300 50  0001 C CNN
+	1    1150 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 10250 1150 10300
+Wire Wire Line
+	2100 10250 2100 10300
+Wire Wire Line
+	3050 10250 3050 10300
+Wire Wire Line
+	3950 10250 3950 10300
+$Comp
+L Pissbot-rescue:R-Device R?
+U 1 1 5F781404
+P 4400 10750
+F 0 "R?" H 4470 10796 50  0000 L CNN
+F 1 "4.7k" H 4470 10705 50  0000 L CNN
+F 2 "" V 4330 10750 50  0001 C CNN
+F 3 "" H 4400 10750 50  0001 C CNN
+	1    4400 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 10250 1050 10600
+Wire Wire Line
+	1050 10600 2000 10600
+Wire Wire Line
+	4400 10600 4650 10600
+Connection ~ 4400 10600
+Wire Wire Line
+	950  10250 950  10900
+Wire Wire Line
+	950  10900 1900 10900
+Wire Wire Line
+	4400 10900 4650 10900
+Connection ~ 4400 10900
+Wire Wire Line
+	1900 10250 1900 10900
+Connection ~ 1900 10900
+Wire Wire Line
+	1900 10900 2850 10900
+Wire Wire Line
+	2850 10250 2850 10900
+Connection ~ 2850 10900
+Wire Wire Line
+	2850 10900 3750 10900
+Wire Wire Line
+	3750 10250 3750 10900
+Connection ~ 3750 10900
+Wire Wire Line
+	3750 10900 4400 10900
+Wire Wire Line
+	2000 10250 2000 10600
+Connection ~ 2000 10600
+Wire Wire Line
+	2000 10600 2950 10600
+Wire Wire Line
+	2950 10250 2950 10600
+Connection ~ 2950 10600
+Wire Wire Line
+	3850 10250 3850 10600
+Wire Wire Line
+	2950 10600 3850 10600
+Connection ~ 3850 10600
+Wire Wire Line
+	3850 10600 4400 10600
+Text GLabel 4650 10600 2    50   Input ~ 0
+1WIRE
+Text GLabel 4650 10900 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	2200 3650 2200 3750
+$EndSCHEMATC
