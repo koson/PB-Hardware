@@ -160,6 +160,17 @@ F 3 "" H 1050 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Pissbot-rescue:+5V-power #PWR0105
+U 1 1 5F6FE77C
+P 5750 1350
+F 0 "#PWR0105" H 5750 1200 50  0001 C CNN
+F 1 "+5V" V 5765 1478 50  0000 L CNN
+F 2 "" H 5750 1350 50  0001 C CNN
+F 3 "" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	0    1    1    0   
+$EndComp
+$Comp
 L Pissbot-rescue:GND-power #PWR0106
 U 1 1 5F7016C2
 P 5750 2050
@@ -1624,9 +1635,13 @@ NOTE: Use zener to clamp gate-source voltage for 12v in?
 Text Notes 16000 5950 2    50   ~ 0
 Ideal diode section for reverse current protection
 Wire Wire Line
-	14600 8950 14250 8950
-Text Label 14250 8950 0    50   ~ 0
-PI_VBUS
+	14600 8950 14300 8950
+Text Label 14300 8950 0    50   ~ 0
+PI_5V_IN
+Text Label 15650 8950 2    50   ~ 0
+5V
+Wire Wire Line
+	15450 8950 15650 8950
 Connection ~ 15450 8950
 Wire Wire Line
 	15450 9150 15450 8950
@@ -1757,14 +1772,18 @@ Wire Wire Line
 Connection ~ 15500 7700
 Wire Wire Line
 	15500 7700 15700 7700
-Text Label 14250 7700 0    50   ~ 0
-ESP_VBUS
+Text Label 15700 7700 2    50   ~ 0
+5V
+Text Label 14350 7700 0    50   ~ 0
+ESP_5V_IN
 Wire Wire Line
-	14650 7700 14250 7700
+	14650 7700 14350 7700
 Wire Wire Line
-	14700 6450 14250 6450
-Text Label 14250 6450 0    50   ~ 0
+	14700 6450 14400 6450
+Text Label 14400 6450 0    50   ~ 0
 5V_IN
+Text Label 15750 6450 2    50   ~ 0
+5V
 Wire Wire Line
 	15550 6450 15750 6450
 Connection ~ 15550 6450
@@ -1832,124 +1851,7 @@ F 3 "" H 14800 6850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
+	14050 5850 16050 5850
+Wire Notes Line
 	14050 4300 14050 9950
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5FE13B77
-P 12150 5000
-F 0 "J?" H 12207 5467 50  0000 C CNN
-F 1 "MicroUSB_ESP" H 12207 5376 50  0000 C CNN
-F 2 "" H 12300 4950 50  0001 C CNN
-F 3 "~" H 12300 4950 50  0001 C CNN
-	1    12150 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pissbot-rescue:+5V-power #PWR?
-U 1 1 5FE4A480
-P 15750 6450
-F 0 "#PWR?" H 15750 6300 50  0001 C CNN
-F 1 "+5V" V 15765 6578 50  0000 L CNN
-F 2 "" H 15750 6450 50  0001 C CNN
-F 3 "" H 15750 6450 50  0001 C CNN
-	1    15750 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L Pissbot-rescue:+5V-power #PWR?
-U 1 1 5FE508F8
-P 15700 7700
-F 0 "#PWR?" H 15700 7550 50  0001 C CNN
-F 1 "+5V" V 15715 7828 50  0000 L CNN
-F 2 "" H 15700 7700 50  0001 C CNN
-F 3 "" H 15700 7700 50  0001 C CNN
-	1    15700 7700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15450 8950 15650 8950
-$Comp
-L Pissbot-rescue:+5V-power #PWR?
-U 1 1 5FE52D71
-P 15650 8950
-F 0 "#PWR?" H 15650 8800 50  0001 C CNN
-F 1 "+5V" V 15665 9078 50  0000 L CNN
-F 2 "" H 15650 8950 50  0001 C CNN
-F 3 "" H 15650 8950 50  0001 C CNN
-	1    15650 8950
-	0    1    1    0   
-$EndComp
-Text Label 5750 1350 2    50   ~ 0
-5V_IN
-NoConn ~ 12050 5400
-Wire Wire Line
-	12450 4800 12850 4800
-Wire Wire Line
-	12450 5000 12850 5000
-Wire Wire Line
-	12450 5100 12850 5100
-Text Label 12850 4800 2    50   ~ 0
-ESP_VBUS
-Text Label 12850 5000 2    50   ~ 0
-ESP_D+
-Text Label 12850 5100 2    50   ~ 0
-ESP_D-
-$Comp
-L power:GND #PWR?
-U 1 1 5FEBADCC
-P 12150 5450
-F 0 "#PWR?" H 12150 5200 50  0001 C CNN
-F 1 "GND" H 12155 5277 50  0000 C CNN
-F 2 "" H 12150 5450 50  0001 C CNN
-F 3 "" H 12150 5450 50  0001 C CNN
-	1    12150 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12150 5450 12150 5400
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5FECC3D1
-P 13200 5000
-F 0 "J?" H 13257 5467 50  0000 C CNN
-F 1 "MicroUSB_PI" H 13257 5376 50  0000 C CNN
-F 2 "" H 13350 4950 50  0001 C CNN
-F 3 "~" H 13350 4950 50  0001 C CNN
-	1    13200 5000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13100 5400
-Wire Wire Line
-	13500 4800 13900 4800
-Wire Wire Line
-	13500 5000 13900 5000
-Wire Wire Line
-	13500 5100 13900 5100
-Text Label 13900 4800 2    50   ~ 0
-PI_VBUS
-Text Label 13900 5000 2    50   ~ 0
-PI_D+
-Text Label 13900 5100 2    50   ~ 0
-PI_D-
-$Comp
-L power:GND #PWR?
-U 1 1 5FECC3DE
-P 13200 5450
-F 0 "#PWR?" H 13200 5200 50  0001 C CNN
-F 1 "GND" H 13205 5277 50  0000 C CNN
-F 2 "" H 13200 5450 50  0001 C CNN
-F 3 "" H 13200 5450 50  0001 C CNN
-	1    13200 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13200 5450 13200 5400
-Text Notes 13950 4450 2    50   ~ 0
-Micro USB connectors
-Wire Notes Line
-	11500 4300 11500 5850
-Wire Notes Line
-	11500 5850 16050 5850
-Text Notes 8600 4650 0    50   ~ 0
-TODO: Add RGB led on port B for indication?
 $EndSCHEMATC
