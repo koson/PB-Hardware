@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "footprints")(type "KiCad")(uri "/Users/maxsydney/Documents/Distiller Design/Electrical/Libraries/CP2102GM/KiCAD/CP2102GM/footprints.pretty")(options "")(descr ""))
-  (lib (name "CM4IO")(type "KiCad")(uri "/home/max/Downloads/CM4IO-KiCAD/CM4IO.pretty")(options "")(descr ""))
-)
